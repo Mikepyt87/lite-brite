@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+button {
+  border-radius: 15%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.cell {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border: white 1px solid;
+}
+.button:hover {
+  border: 4px solid darkslateblue;
+}
